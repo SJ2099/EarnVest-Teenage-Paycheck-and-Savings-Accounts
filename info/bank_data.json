@@ -1,0 +1,4277 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "generated_on": "2026-10-15",
+    "region": "United States Northeast (CT, ME, MA, NH, RI, VT, NJ, NY, PA)",
+    "account_count": 49,
+    "collection_method": "Rates and terms were gathered from dated third-party rate trackers and reviews. Bank pages were NOT individually opened, so confirm every rate on the official URL before showing it to users.",
+    "primary_rate_sources": [
+      {
+        "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+        "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+        "as_of": "2026-09-24"
+      },
+      {
+        "name": "ShopBack - Ally vs Marcus vs SoFi vs Discover",
+        "url": "https://www.shopback.com/blog/finance/us-high-yield-savings-ally-vs-marcus-vs-sofi-vs-discover-2026",
+        "as_of": "2026-09-29"
+      },
+      {
+        "name": "The College Investor - Best High-Yield Savings Rates Oct 5, 2026",
+        "url": "https://thecollegeinvestor.com/89982/best-high-yield-savings-rates-for-october-5-2026/",
+        "as_of": "2026-10-05"
+      },
+      {
+        "name": "Banksparency - Youth Savings Accounts",
+        "url": "https://banksparency.com/savings-accounts/youth-savings",
+        "as_of": "2026-08-21"
+      }
+    ],
+    "market_context": "Fed raised the federal funds target to 3.75-4.00% on 2026-09-16; online rates were repricing upward in Oct 2026. Rates are variable and move often.",
+    "field_notes": {
+      "apy.value_percent": "Headline rate for a typical new customer, excluding temporary promos.",
+      "apy.floor_value_percent": "Rate if no conditions are met. null = unknown.",
+      "apy.max_value_percent": "Highest rate reachable (promo, tier or conditions).",
+      "apy.structure": "single | tiered | conditional",
+      "apy.rate_type": "variable | fixed",
+      "null_values": "null means unknown or not captured; see missing_fields.",
+      "unconfirmed_fields": "Values filled from general knowledge or weak sources.",
+      "eligibility.minimum_age / maximum_age": "null maximum_age = no upper limit; null in either = not captured.",
+      "term_months": "Only set for CDs."
+    },
+    "verification_status_values": {
+      "verified_third_party": "Rate seen in a dated third-party source within about 3 weeks, with no conflicting figure.",
+      "needs_review": "Conflicting, older, partial or assumed data. Treat as indicative."
+    },
+    "enums": {
+      "account_type": [
+        "savings",
+        "money_market",
+        "cd",
+        "checking"
+      ],
+      "bank_type": [
+        "online_bank",
+        "national_bank",
+        "regional_bank",
+        "community_bank",
+        "credit_union"
+      ],
+      "availability.scope": [
+        "nationwide_online",
+        "northeast_branches",
+        "regional_limited"
+      ],
+      "categories": [
+        "big_bank",
+        "bonus_offer",
+        "cd",
+        "credit_union",
+        "high_yield_checking",
+        "high_yield_savings",
+        "money_market",
+        "northeast_regional",
+        "rate_conditions_apply",
+        "tiered_rate",
+        "traditional_savings",
+        "youth_savings"
+      ],
+      "access": [
+        "atm",
+        "branch",
+        "debit_card_via_linked_checking",
+        "mobile_app",
+        "mobile_check_deposit",
+        "online",
+        "phone",
+        "wire_transfer"
+      ],
+      "features": [
+        "apy_boost_promo",
+        "automatic_transfers",
+        "balance_cap",
+        "branch_network_northeast",
+        "buckets_goals",
+        "early_withdrawal_penalty",
+        "joint_account_required",
+        "no_minimum_balance",
+        "no_monthly_fee",
+        "optional_atm_card",
+        "parental_controls",
+        "rate_guarantee",
+        "referral_bonus",
+        "requires_debit_activity",
+        "requires_direct_deposit",
+        "requires_linked_checking",
+        "requires_monthly_deposit",
+        "round_ups",
+        "same_login_checking",
+        "sign_up_bonus",
+        "tiered_rates"
+      ]
+    }
+  },
+  "accounts": [
+    {
+      "id": "peak-bank-envision-savings",
+      "institution": "Peak Bank",
+      "product_name": "Envision High-Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Idaho First Bank (Peak Bank division)"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult individual/joint account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 4.27,
+        "floor_value_percent": 4.27,
+        "max_value_percent": 4.27,
+        "min_balance_for_apy_usd": 100,
+        "max_balance_for_apy_usd": 499999.99,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "balance_cap",
+            "description": "4.27% applies on balances up to $499,999 (per source)"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-10-05"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee reported."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.peak.bank/peak-bank/savings",
+      "sources": {
+        "product_page_url": "https://www.peak.bank/peak-bank/savings",
+        "rate_page_url": "https://www.peak.bank/peak-bank/savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "The College Investor - Best High-Yield Savings Rates Oct 5, 2026",
+          "url": "https://thecollegeinvestor.com/89982/best-high-yield-savings-rates-for-october-5-2026/",
+          "as_of": "2026-10-05"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Conflicting rate: The College Investor lists 4.27% (Oct 5); Doctor of Credit listed 4.01% for new accounts (Sept 24). Re-check on bank site.",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "newtek-bank-personal-high-yield-savings",
+      "institution": "Newtek Bank",
+      "product_name": "Personal High Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Newtek Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 4.2,
+        "floor_value_percent": 4.2,
+        "max_value_percent": 4.2,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.01,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Only $0.01 needed to open and start earning (NerdWallet)."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.newtekbank.com/personal/high-yield-savings/",
+      "sources": {
+        "product_page_url": "https://www.newtekbank.com/personal/high-yield-savings/",
+        "rate_page_url": "https://www.newtekbank.com/personal/high-yield-savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "pibank-savings",
+      "institution": "PiBank (Intercredit Bank, N.A.)",
+      "product_name": "PiBank Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Intercredit Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 4.1,
+        "floor_value_percent": 4.1,
+        "max_value_percent": 4.1,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-10-05"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly maintenance fee, no minimum balance (The College Investor)."
+      },
+      "access": [
+        "online",
+        "wire_transfer"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.pibank.com/pibank-savings/",
+      "sources": {
+        "product_page_url": "https://www.pibank.com/pibank-savings/",
+        "rate_page_url": "https://www.pibank.com/pibank-savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "The College Investor - Best High-Yield Savings Rates Oct 5, 2026",
+          "url": "https://thecollegeinvestor.com/89982/best-high-yield-savings-rates-for-october-5-2026/",
+          "as_of": "2026-10-05"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Some customers report withdrawals are wire-transfer only. The College Investor's table shows 4.25% but its text and Doctor of Credit show 4.10%; 4.10% used.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "cit-bank-platinum-savings",
+      "institution": "CIT Bank",
+      "product_name": "Platinum Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "tiered_rate",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "CIT Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 3.75,
+        "floor_value_percent": 0.25,
+        "max_value_percent": 4.25,
+        "min_balance_for_apy_usd": 5000,
+        "max_balance_for_apy_usd": null,
+        "tiers": [
+          {
+            "min_balance_usd": 0.01,
+            "max_balance_usd": 4999.99,
+            "apy_percent": 0.25
+          },
+          {
+            "min_balance_usd": 5000.0,
+            "max_balance_usd": null,
+            "apy_percent": 3.75
+          }
+        ],
+        "conditions": [
+          {
+            "type": "minimum_balance",
+            "description": "Balance of $5,000+ earns 3.75%; under $5,000 earns 0.25%"
+          }
+        ],
+        "promo": {
+          "description": "APY boost for 6 months on new accounts (code BOOST50 cited as 4.25%); +0.35% boost terms appear in disclosure; enrollment 2026-09-29 to 2026-12-15",
+          "boost_percent": 0.5,
+          "duration_months": 6,
+          "expires": "2026-12-15"
+        },
+        "rate_as_of": "2026-10-05"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Interest paid on whole balance at the tier rate."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "tiered_rates",
+        "apy_boost_promo",
+        "no_monthly_fee"
+      ],
+      "promotions": [
+        {
+          "description": "APY boost for first 6 months (code BOOST50)",
+          "bonus_usd": null,
+          "expires": "2026-12-15"
+        }
+      ],
+      "official_url": "https://www.cit.com/cit-bank/bank/savings/platinum-savings-account",
+      "sources": {
+        "product_page_url": "https://www.cit.com/cit-bank/bank/savings/platinum-savings-account",
+        "rate_page_url": "https://www.cit.com/cit-bank/resources/forms",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "The College Investor - Best High-Yield Savings Rates Oct 5, 2026",
+          "url": "https://thecollegeinvestor.com/89982/best-high-yield-savings-rates-for-october-5-2026/",
+          "as_of": "2026-10-05"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Boost percentage differs between sources (0.35 vs 0.50); max_value_percent uses the 4.25% advertised figure.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "openbank-high-yield-savings",
+      "institution": "Openbank by Santander",
+      "product_name": "High Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Santander Bank, N.A. (Openbank division)"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Personal accounts only; new Openbank customers for the boost.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.8,
+        "floor_value_percent": 3.8,
+        "max_value_percent": 4.15,
+        "min_balance_for_apy_usd": 500,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "zip_code",
+            "description": "Rate may vary by residential ZIP entered at application"
+          }
+        ],
+        "promo": {
+          "description": "+0.35% APY boost for 6 months for new customers",
+          "boost_percent": 0.35,
+          "duration_months": 6,
+          "expires": null
+        },
+        "rate_as_of": "2026-10-05"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 500.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly maintenance fee."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "apy_boost_promo",
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.openbank.us/banking/high-yield-savings-account",
+      "sources": {
+        "product_page_url": "https://www.openbank.us/banking/high-yield-savings-account",
+        "rate_page_url": "https://www.openbank.us/banking/high-yield-savings-account",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "The College Investor - Best High-Yield Savings Rates Oct 5, 2026",
+          "url": "https://thecollegeinvestor.com/89982/best-high-yield-savings-rates-for-october-5-2026/",
+          "as_of": "2026-10-05"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Deposits at Santander Bank and Openbank are combined for FDIC limits. Available in select markets only per disclosure.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "happen-bank-levelup-savings",
+      "institution": "Happen Bank (formerly LendingClub)",
+      "product_name": "LevelUp Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "rate_conditions_apply"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Happen Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "conditional",
+        "value_percent": 4.2,
+        "floor_value_percent": 3.0,
+        "max_value_percent": 4.2,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "monthly_deposit",
+            "description": "Requires $250 deposited in the prior month to earn the higher rate"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Unconditional rate falls to Happen's standard HYSA rate (3.00%)."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "requires_monthly_deposit",
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.lendingclub.com/pd/sem/personal-savings/levelup-savings",
+      "sources": {
+        "product_page_url": "https://www.lendingclub.com/pd/sem/personal-savings/levelup-savings",
+        "rate_page_url": "https://www.lendingclub.com/personal/account-rates",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "apy.floor_value_percent"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "happen-bank-high-yield-savings",
+      "institution": "Happen Bank (formerly LendingClub)",
+      "product_name": "High-Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Happen Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.0,
+        "floor_value_percent": 3.0,
+        "max_value_percent": 3.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.lendingclub.com/personal/account-rates",
+      "sources": {
+        "product_page_url": "https://www.lendingclub.com/personal/account-rates",
+        "rate_page_url": "https://www.lendingclub.com/personal/account-rates",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Other sources list higher figures (up to 3.85%); tracker figure used.",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "live-oak-bank-personal-savings",
+      "institution": "Live Oak Bank",
+      "product_name": "Personal Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Live Oak Banking Company"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 4.0,
+        "floor_value_percent": 4.0,
+        "max_value_percent": 4.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No minimum deposit (CNBC Select)."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "no_minimum_balance",
+        "sign_up_bonus"
+      ],
+      "promotions": [
+        {
+          "description": "Savings bonus up to $300 (terms and expiry not captured)",
+          "bonus_usd": 300,
+          "expires": null
+        }
+      ],
+      "official_url": "https://www.liveoakbank.com/personal-banking/personal-savings/",
+      "sources": {
+        "product_page_url": "https://www.liveoakbank.com/personal-banking/personal-savings/",
+        "rate_page_url": "https://www.liveoakbank.com/personal-banking/personal-savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "forbright-bank-growth-savings",
+      "institution": "Forbright Bank",
+      "product_name": "Growth Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Forbright Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.85,
+        "floor_value_percent": 3.85,
+        "max_value_percent": 4.15,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": {
+          "description": "4.15% advertised for new customers",
+          "boost_percent": 0.3,
+          "duration_months": null,
+          "expires": null
+        },
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.forbrightbank.com/personal-banking/growth-savings/",
+      "sources": {
+        "product_page_url": "https://www.forbrightbank.com/personal-banking/growth-savings/",
+        "rate_page_url": "https://www.forbrightbank.com/personal-banking/growth-savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "vio-bank-online-savings",
+      "institution": "Vio Bank (division of MidFirst Bank)",
+      "product_name": "Online Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "MidFirst Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.99,
+        "floor_value_percent": 3.99,
+        "max_value_percent": 3.99,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Older review reported $5/month paper-statement fee and dormancy fee; confirm."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.viobank.com/online-savings-account",
+      "sources": {
+        "product_page_url": "https://www.viobank.com/online-savings-account",
+        "rate_page_url": "https://www.viobank.com/online-savings-account",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd",
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "bread-savings-high-yield-savings",
+      "institution": "Bread Savings",
+      "product_name": "High-Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Bread Savings (Comenity Capital Bank)"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.95,
+        "floor_value_percent": 3.95,
+        "max_value_percent": 3.95,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "$100 minimum opening deposit (Bankrate)."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://direct.comenity.com/products/high-yield-savings-account",
+      "sources": {
+        "product_page_url": "https://direct.comenity.com/products/high-yield-savings-account",
+        "rate_page_url": "https://direct.comenity.com/products/high-yield-savings-account",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "everbank-performance-savings",
+      "institution": "EverBank",
+      "product_name": "Performance Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "EverBank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.9,
+        "floor_value_percent": 3.9,
+        "max_value_percent": 3.9,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "new_accounts",
+            "description": "Tracker notes 3.90% for new accounts"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.everbank.com/banking/performance-savings",
+      "sources": {
+        "product_page_url": "https://www.everbank.com/banking/performance-savings",
+        "rate_page_url": "https://www.everbank.com/banking/performance-savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "popular-direct-select-savings",
+      "institution": "Popular Direct (Popular Bank, New York)",
+      "product_name": "Select Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Parent Popular Bank is headquartered in New York; online product open nationwide."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Popular Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.9,
+        "floor_value_percent": 3.9,
+        "max_value_percent": 3.9,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.populardirect.com/products/savings",
+      "sources": {
+        "product_page_url": "https://www.populardirect.com/products/savings",
+        "rate_page_url": "https://www.populardirect.com/products/savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Tracker entry cites an older comment as its source; confirm rate.",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd",
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "quontic-bank-high-yield-money-market",
+      "institution": "Quontic Bank (New York, NY)",
+      "product_name": "High Yield Money Market",
+      "account_type": "money_market",
+      "categories": [
+        "money_market",
+        "high_yield_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Headquartered in New York City; online accounts open nationwide."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Quontic Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.9,
+        "floor_value_percent": 3.9,
+        "max_value_percent": 3.9,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Quontic's savings product is reported with $100 minimum opening; money market minimum not captured."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.quontic.com/banking/savings/money-market-account/",
+      "sources": {
+        "product_page_url": "https://www.quontic.com/banking/savings/money-market-account/",
+        "rate_page_url": "https://www.quontic.com/banking/savings/money-market-account/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "western-alliance-bank-high-yield-savings",
+      "institution": "Western Alliance Bank",
+      "product_name": "High-Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Western Alliance Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.8,
+        "floor_value_percent": 3.8,
+        "max_value_percent": 3.8,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.westernalliancebancorporation.com/personal-banking/high-yield-savings-account",
+      "sources": {
+        "product_page_url": "https://www.westernalliancebancorporation.com/personal-banking/high-yield-savings-account",
+        "rate_page_url": "https://www.westernalliancebancorporation.com/personal-banking/high-yield-savings-account",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "marcus-high-yield-online-savings",
+      "institution": "Marcus by Goldman Sachs",
+      "product_name": "High-Yield Online Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Goldman Sachs Bank USA"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account; no custodial/minor option identified.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.5,
+        "floor_value_percent": 3.5,
+        "max_value_percent": 4.5,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": {
+          "description": "Referral: extra 1.00% APY for 90 days",
+          "boost_percent": 1.0,
+          "duration_months": 3,
+          "expires": null
+        },
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No fees; no minimum."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "wire_transfer"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "no_minimum_balance",
+        "referral_bonus"
+      ],
+      "promotions": [],
+      "official_url": "https://www.marcus.com/us/en/savings/high-yield-savings",
+      "sources": {
+        "product_page_url": "https://www.marcus.com/us/en/savings/high-yield-savings",
+        "rate_page_url": "https://www.marcus.com/us/en/savings/high-yield-savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "ShopBack - Ally vs Marcus vs SoFi vs Discover",
+          "url": "https://www.shopback.com/blog/finance/us-high-yield-savings-ally-vs-marcus-vs-sofi-vs-discover-2026",
+          "as_of": "2026-09-29"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Savings and CDs only: no checking, debit card, or ATM access.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "ally-online-savings",
+      "institution": "Ally Bank",
+      "product_name": "Online Savings Account",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Ally Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account. A custodial option was mentioned by one source; unverified.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.1,
+        "floor_value_percent": 3.1,
+        "max_value_percent": 3.1,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-30"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee; no minimum."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "mobile_check_deposit",
+        "phone"
+      ],
+      "features": [
+        "buckets_goals",
+        "round_ups",
+        "automatic_transfers",
+        "same_login_checking",
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.ally.com/bank/savings-account-rates/",
+      "sources": {
+        "product_page_url": "https://www.ally.com/bank/savings-account-rates/",
+        "rate_page_url": "https://www.ally.com/bank/savings-account-rates/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "ShopBack - Ally vs Marcus vs SoFi vs Discover",
+          "url": "https://www.shopback.com/blog/finance/us-high-yield-savings-ally-vs-marcus-vs-sofi-vs-discover-2026",
+          "as_of": "2026-09-29"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "capital-one-360-performance-savings",
+      "institution": "Capital One",
+      "product_name": "360 Performance Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "national_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Also has branches and cafes in select metros."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Capital One, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account. Absorbed Discover Online Savings accounts on 2026-08-23.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.1,
+        "floor_value_percent": 3.1,
+        "max_value_percent": 3.1,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee; no minimum."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch"
+      ],
+      "features": [
+        "same_login_checking",
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.capitalone.com/bank/savings-accounts/online-savings-account/",
+      "sources": {
+        "product_page_url": "https://www.capitalone.com/bank/savings-accounts/online-savings-account/",
+        "rate_page_url": "https://www.capitalone.com/bank/savings-accounts/online-savings-account/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "ShopBack - Ally vs Marcus vs SoFi vs Discover",
+          "url": "https://www.shopback.com/blog/finance/us-high-yield-savings-ally-vs-marcus-vs-sofi-vs-discover-2026",
+          "as_of": "2026-09-29"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Older sources show 3.00-3.30% and one unreliable page shows 4.25%; Sept 2026 sources agree on 3.10%.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "sofi-checking-and-savings-savings",
+      "institution": "SoFi Bank, N.A.",
+      "product_name": "SoFi Savings (with Checking)",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "rate_conditions_apply",
+        "bonus_offer"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "SoFi Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "conditional",
+        "value_percent": 3.1,
+        "floor_value_percent": 1.0,
+        "max_value_percent": 4.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "direct_deposit",
+            "description": "3.10% needs eligible direct deposit or $5,000+ in qualifying monthly deposits; otherwise 1.00%"
+          }
+        ],
+        "promo": {
+          "description": "+0.90% boost for new members, 2026-09-03 to 2026-12-31",
+          "boost_percent": 0.9,
+          "duration_months": null,
+          "expires": "2026-12-31"
+        },
+        "rate_as_of": "2026-09-29"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "debit_card_via_linked_checking"
+      ],
+      "features": [
+        "buckets_goals",
+        "same_login_checking",
+        "requires_direct_deposit",
+        "sign_up_bonus",
+        "apy_boost_promo",
+        "no_monthly_fee"
+      ],
+      "promotions": [
+        {
+          "description": "$50 for $1,000 or $400 for $5,000 in direct deposits within 25 days",
+          "bonus_usd": 400,
+          "expires": "2026-12-31"
+        }
+      ],
+      "official_url": "https://www.sofi.com/banking/",
+      "sources": {
+        "product_page_url": "https://www.sofi.com/banking/",
+        "rate_page_url": "https://www.sofi.com/banking/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "ShopBack - Ally vs Marcus vs SoFi vs Discover",
+          "url": "https://www.shopback.com/blog/finance/us-high-yield-savings-ally-vs-marcus-vs-sofi-vs-discover-2026",
+          "as_of": "2026-09-29"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Doctor of Credit (Sept 24) lists 3.30% with direct deposit and 3.80% for first six months; ShopBack (Sept 29) lists 3.10% / 4.00%. Newer ShopBack figures used.",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "citizens-access-savings",
+      "institution": "Citizens Access (Citizens Bank, Providence RI)",
+      "product_name": "Online Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online division of Citizens Bank (Providence, RI)."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Citizens Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account. Cannot fund with cash.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 2.8,
+        "floor_value_percent": 2.8,
+        "max_value_percent": 2.8,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "mobile_check_deposit"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.secure.citizensaccess.com/Citizens/savings",
+      "sources": {
+        "product_page_url": "https://www.secure.citizensaccess.com/Citizens/savings",
+        "rate_page_url": "https://www.secure.citizensaccess.com/Citizens/savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Banksparency showed 3.15% in May 2026 and one page mentions balance tiers; Sept 24 tracker figure used.",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "synchrony-bank-high-yield-savings",
+      "institution": "Synchrony Bank",
+      "product_name": "High Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Synchrony Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.3,
+        "floor_value_percent": 3.3,
+        "max_value_percent": 3.3,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee; no minimum."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "mobile_check_deposit",
+        "wire_transfer",
+        "atm"
+      ],
+      "features": [
+        "optional_atm_card",
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.synchronybank.com/banking/high-yield-savings/",
+      "sources": {
+        "product_page_url": "https://www.synchronybank.com/banking/high-yield-savings/",
+        "rate_page_url": "https://www.synchronybank.com/banking/high-yield-savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "american-express-high-yield-savings",
+      "institution": "American Express National Bank",
+      "product_name": "High Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "American Express National Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.1,
+        "floor_value_percent": 3.1,
+        "max_value_percent": 3.1,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings-account/",
+      "sources": {
+        "product_page_url": "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings-account/",
+        "rate_page_url": "https://www.americanexpress.com/en-us/banking/online-savings/high-yield-savings-account/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "barclays-tiered-savings",
+      "institution": "Barclays US",
+      "product_name": "Tiered Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "tiered_rate"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Barclays Bank Delaware"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 3.65,
+        "floor_value_percent": null,
+        "max_value_percent": 3.65,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "aarp_member",
+            "description": "AARP members: 4.00% plus $200 bonus per tracker"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "tiered_rates",
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.banking.barclaysus.com/tiered-savings.html",
+      "sources": {
+        "product_page_url": "https://www.banking.barclaysus.com/tiered-savings.html",
+        "rate_page_url": "https://www.banking.barclaysus.com/tiered-savings.html",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "apy.tiers",
+        "apy.floor_value_percent",
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "axos-one-savings",
+      "institution": "Axos Bank",
+      "product_name": "Axos ONE Savings (with Checking)",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "rate_conditions_apply"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Axos Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "conditional",
+        "value_percent": 4.21,
+        "floor_value_percent": null,
+        "max_value_percent": 4.21,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "requirements",
+            "description": "Top rate requires meeting Axos ONE relationship requirements (details not captured)"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "same_login_checking"
+      ],
+      "promotions": [],
+      "official_url": "https://www.axosbank.com/personal/bank/axos-one",
+      "sources": {
+        "product_page_url": "https://www.axosbank.com/personal/bank/axos-one",
+        "rate_page_url": "https://www.axosbank.com/personal/bank/axos-one",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "apy.floor_value_percent",
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "alliant-credit-union-high-yield-savings",
+      "institution": "Alliant Credit Union",
+      "product_name": "High-Yield Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "credit_union"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "Alliant Credit Union"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Membership required.",
+        "membership_required": true,
+        "membership_details": "Open to anyone nationwide through a partner-charity membership path (verify current requirement)."
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.01,
+        "floor_value_percent": 3.01,
+        "max_value_percent": 3.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.alliantcreditunion.org/bank/high-yield-savings",
+      "sources": {
+        "product_page_url": "https://www.alliantcreditunion.org/bank/high-yield-savings",
+        "rate_page_url": "https://www.alliantcreditunion.org/bank/high-yield-savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees.monthly_fee_usd",
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "salem-five-direct-eone-savings",
+      "institution": "Salem Five Direct (Salem Five Cents Savings Bank, MA)",
+      "product_name": "eOne Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": [
+          "MA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Massachusetts bank with online division open nationwide."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Salem Five Cents Savings Bank (also MA DIF)"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.51,
+        "floor_value_percent": 3.51,
+        "max_value_percent": 3.51,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.salemfivedirect.com/#eonesavings",
+      "sources": {
+        "product_page_url": "https://www.salemfivedirect.com/#eonesavings",
+        "rate_page_url": "https://www.salemfivedirect.com/#eonesavings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Tracker entry cites an older comment; confirm.",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "leader-bank-zeugma-plus-savings",
+      "institution": "Leader Bank (Arlington, MA)",
+      "product_name": "Zeugma Plus Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "rate_conditions_apply",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "regional_limited",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Offered in select states (list not captured); confirm eligibility for your state."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Leader Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "conditional",
+        "value_percent": 4.3,
+        "floor_value_percent": null,
+        "max_value_percent": 5.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "direct_deposit",
+            "description": "Requires $1,000 direct deposit"
+          },
+          {
+            "type": "debit_transactions",
+            "description": "Requires 3 debit card transactions"
+          },
+          {
+            "type": "intro_rate",
+            "description": "5.00% initial rate reported"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "debit_card_via_linked_checking"
+      ],
+      "features": [
+        "requires_direct_deposit",
+        "same_login_checking"
+      ],
+      "promotions": [],
+      "official_url": "https://www.leaderbank.com/personal/savings",
+      "sources": {
+        "product_page_url": "https://www.leaderbank.com/personal/savings",
+        "rate_page_url": "https://www.leaderbank.com/personal/savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "apy.floor_value_percent",
+        "fees.minimum_opening_deposit_usd",
+        "availability.states"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "valley-direct-savings",
+      "institution": "Valley Direct (Valley National Bank, NJ)",
+      "product_name": "Valley Direct Savings",
+      "account_type": "savings",
+      "categories": [
+        "high_yield_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": [
+          "NJ"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Online division of New Jersey-based Valley National Bank."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Valley National Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.4,
+        "floor_value_percent": 3.4,
+        "max_value_percent": 4.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": {
+          "description": "4.00% for new customers per tracker",
+          "boost_percent": 0.6,
+          "duration_months": null,
+          "expires": null
+        },
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.valleydirect.com/",
+      "sources": {
+        "product_page_url": "https://www.valleydirect.com/",
+        "rate_page_url": "https://www.valleydirect.com/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "dcu-primary-savings",
+      "institution": "Digital Federal Credit Union (DCU), MA",
+      "product_name": "Primary Savings (promo rate)",
+      "account_type": "savings",
+      "categories": [
+        "credit_union",
+        "northeast_regional",
+        "rate_conditions_apply"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": [
+          "MA",
+          "NH"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Massachusetts-based; membership eligibility rules apply."
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "Digital Federal Credit Union"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Membership required.",
+        "membership_required": true,
+        "membership_details": "Join DCU (eligibility via location/employer/associations); small share deposit required."
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 5.0,
+        "floor_value_percent": null,
+        "max_value_percent": 5.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": 1000.0,
+        "tiers": [
+          {
+            "min_balance_usd": 0.0,
+            "max_balance_usd": 1000.0,
+            "apy_percent": 5.0
+          },
+          {
+            "min_balance_usd": 1000.01,
+            "max_balance_usd": null,
+            "apy_percent": null
+          }
+        ],
+        "conditions": [
+          {
+            "type": "balance_cap",
+            "description": "5.00% applies only on balances up to $1,000; standard rate above not captured"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 5.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Share deposit to join."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "balance_cap",
+        "tiered_rates"
+      ],
+      "promotions": [],
+      "official_url": "https://www.dcu.org/",
+      "sources": {
+        "product_page_url": "https://www.dcu.org/",
+        "rate_page_url": "https://www.doctorofcredit.com/digital-federal-credit-union-dcu-6-17-apy-on-balances-up-to-1000-primary-savings-account/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "Official URL is the credit union's root domain (not seen in research).",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [
+        "apy.tiers[1].apy_percent"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "credit-union-of-nj-kasasa-cash-checking",
+      "institution": "Credit Union of New Jersey",
+      "product_name": "Kasasa Cash Checking",
+      "account_type": "checking",
+      "categories": [
+        "high_yield_checking",
+        "credit_union",
+        "rate_conditions_apply",
+        "northeast_regional"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "regional_limited",
+        "states": [
+          "NJ"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "NJ field of membership; confirm eligibility."
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "Credit Union of New Jersey"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Membership required.",
+        "membership_required": true,
+        "membership_details": "New Jersey field of membership (confirm)."
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "conditional",
+        "value_percent": 5.5,
+        "floor_value_percent": null,
+        "max_value_percent": 5.5,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": 20000.0,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "monthly_qualifications",
+            "description": "Kasasa Cash monthly qualification activity required (details not captured)"
+          },
+          {
+            "type": "balance_cap",
+            "description": "5.50% applies on balances up to $20,000"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm",
+        "debit_card_via_linked_checking"
+      ],
+      "features": [
+        "requires_debit_activity",
+        "balance_cap"
+      ],
+      "promotions": [],
+      "official_url": "https://www.cunj.com/bank/personal-banking/checking/kasasa-cash-checking/",
+      "sources": {
+        "product_page_url": "https://www.cunj.com/bank/personal-banking/checking/kasasa-cash-checking/",
+        "rate_page_url": "https://www.cunj.com/bank/personal-banking/checking/kasasa-cash-checking/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "apy.floor_value_percent",
+        "fees",
+        "apy.conditions_details"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "apple-bank-smartstart-savings",
+      "institution": "Apple Bank for Savings (NY)",
+      "product_name": "SmartStart Savings (youth)",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "northeast_regional",
+        "tiered_rate"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "regional_limited",
+        "states": [
+          "NY"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "New York-based; one source says online opening is possible outside NY."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Apple Bank for Savings"
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": 6,
+        "maximum_age": 25,
+        "adult_required": true,
+        "details": "Youth account (reported ages 6-25); joint with parent/guardian for minors.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 5.0,
+        "floor_value_percent": 2.87,
+        "max_value_percent": 5.0,
+        "min_balance_for_apy_usd": 5,
+        "max_balance_for_apy_usd": null,
+        "tiers": [
+          {
+            "min_balance_usd": 0.0,
+            "max_balance_usd": 10000.0,
+            "apy_percent": 5.0
+          },
+          {
+            "min_balance_usd": 10000.01,
+            "max_balance_usd": 20000.0,
+            "apy_percent": 2.87
+          }
+        ],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-07-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 1.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "$5 minimum daily balance to earn interest; no monthly fee."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch"
+      ],
+      "features": [
+        "tiered_rates",
+        "joint_account_required",
+        "parental_controls"
+      ],
+      "promotions": [],
+      "official_url": "https://www.applebank.com/",
+      "sources": {
+        "product_page_url": "https://www.applebank.com/",
+        "rate_page_url": "https://www.monitorbankrates.com/savings-account-rates/new-york/new-city",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "WalletHub - Student/Youth Savings",
+          "url": "https://wallethub.com/money-market-accounts/student",
+          "as_of": null
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "Older youth page listed 3.00% up to $10,000 (ages 6-17); newer sources list 5.00% up to $10,000. Official URL is root domain (not seen).",
+      "unconfirmed_fields": [
+        "eligibility.maximum_age",
+        "eligibility.minimum_age"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "capital-one-kids-savings",
+      "institution": "Capital One",
+      "product_name": "Kids Savings Account",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings"
+      ],
+      "bank_type": "national_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Joint parent-child account."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Capital One, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": 0,
+        "maximum_age": 17,
+        "adult_required": true,
+        "details": "Joint account with parent when child is 12 or under; can open from birth.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 2.5,
+        "floor_value_percent": 2.5,
+        "max_value_percent": 2.5,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-08-21"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No fees; no minimum balance."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "parental_controls",
+        "automatic_transfers",
+        "no_monthly_fee",
+        "no_minimum_balance"
+      ],
+      "promotions": [],
+      "official_url": "https://www.capitalone.com/bank/kids-savings-account/",
+      "sources": {
+        "product_page_url": "https://www.capitalone.com/bank/kids-savings-account/",
+        "rate_page_url": "https://www.capitalone.com/bank/kids-savings-account/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Banksparency - Youth Savings Accounts",
+          "url": "https://banksparency.com/savings-accounts/youth-savings",
+          "as_of": "2026-08-21"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "Official URL inferred; not seen in research.",
+      "unconfirmed_fields": [
+        "eligibility.maximum_age"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "alliant-kids-savings",
+      "institution": "Alliant Credit Union",
+      "product_name": "Kids Savings Account",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "credit_union"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "Alliant Credit Union"
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": 0,
+        "maximum_age": 12,
+        "adult_required": true,
+        "details": "Reported for ages 12 and under.",
+        "membership_required": true,
+        "membership_details": "Alliant membership required for parent/child."
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 3.01,
+        "floor_value_percent": 3.01,
+        "max_value_percent": 3.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "parental_controls",
+        "no_monthly_fee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.alliantcreditunion.org/",
+      "sources": {
+        "product_page_url": "https://www.alliantcreditunion.org/",
+        "rate_page_url": "https://www.alliantcreditunion.org/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Eneba hub - Best Savings Accounts for Kids",
+          "url": "https://www.eneba.com/hub/?p=108412",
+          "as_of": "2026-09-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "Product-page URL not captured; root domain provided.",
+      "unconfirmed_fields": [
+        "eligibility.maximum_age"
+      ],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "chase-first-banking-savings",
+      "institution": "Chase",
+      "product_name": "First Banking (savings component)",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "big_bank"
+      ],
+      "bank_type": "national_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "ME",
+          "MA",
+          "NH",
+          "RI",
+          "VT",
+          "NJ",
+          "NY",
+          "PA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Large Chase branch network in the Northeast."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "JPMorgan Chase Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": 6,
+        "maximum_age": 17,
+        "adult_required": true,
+        "details": "Requires parent/guardian with a qualifying Chase checking account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-07-18"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "parental_controls",
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.chase.com/personal/checking/first-banking",
+      "sources": {
+        "product_page_url": "https://www.chase.com/personal/checking/first-banking",
+        "rate_page_url": "https://www.chase.com/personal/checking/first-banking",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Banksparency - Youth Savings Accounts",
+          "url": "https://banksparency.com/savings-accounts/youth-savings",
+          "as_of": "2026-08-21"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "One source claims 3.01% (likely erroneous); others say rates run low. 0.01% is an assumption based on Chase standard savings.",
+      "unconfirmed_fields": [
+        "apy.value_percent",
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "ridgewood-savings-bank-youth-passbook-savings",
+      "institution": "Ridgewood Savings Bank (NY)",
+      "product_name": "Youth Passbook Savings",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "NY"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "New York City-area mutual savings bank."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Ridgewood Savings Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": null,
+        "maximum_age": null,
+        "adult_required": null,
+        "details": "Youth account; exact age band not captured.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 1.5,
+        "floor_value_percent": 1.5,
+        "max_value_percent": 1.5,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": 25000.0,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "balance_cap",
+            "description": "1.50% on balances up to $25,000"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": null
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "branch",
+        "online"
+      ],
+      "features": [
+        "balance_cap"
+      ],
+      "promotions": [],
+      "official_url": "https://www.ridgewoodbank.com/",
+      "sources": {
+        "product_page_url": "https://www.ridgewoodbank.com/",
+        "rate_page_url": "https://www.ridgewoodbank.com/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "WalletHub - Student/Youth Savings",
+          "url": "https://wallethub.com/money-market-accounts/student",
+          "as_of": null
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "eligibility.minimum_age",
+        "eligibility.maximum_age",
+        "eligibility.adult_required",
+        "fees",
+        "apy.rate_as_of"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "florence-bank-nextgen-savings",
+      "institution": "Florence Bank (MA)",
+      "product_name": "NextGen Savings",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "community_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "MA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Western Massachusetts community bank."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Florence Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": null,
+        "maximum_age": null,
+        "adult_required": null,
+        "details": "Listed as a youth savings product; age band not captured.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 1.0,
+        "floor_value_percent": 1.0,
+        "max_value_percent": 1.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-08-21"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "branch"
+      ],
+      "features": [],
+      "promotions": [],
+      "official_url": "https://www.florencebank.com/",
+      "sources": {
+        "product_page_url": "https://www.florencebank.com/",
+        "rate_page_url": "https://www.florencebank.com/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Banksparency - Youth Savings Accounts",
+          "url": "https://banksparency.com/savings-accounts/youth-savings",
+          "as_of": "2026-08-21"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "eligibility.minimum_age",
+        "eligibility.maximum_age",
+        "eligibility.adult_required",
+        "fees",
+        "access"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "usalliance-youth-savings",
+      "institution": "USALLIANCE Financial (NY/CT)",
+      "product_name": "Youth Savings (kids under 13)",
+      "account_type": "savings",
+      "categories": [
+        "youth_savings",
+        "credit_union",
+        "northeast_regional",
+        "tiered_rate"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "regional_limited",
+        "states": [
+          "NY",
+          "CT",
+          "NJ"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Branches in Port Chester and Bronx NY, West Haven CT, Wayne NJ."
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "USALLIANCE Financial"
+      },
+      "eligibility": {
+        "under_18_eligible": true,
+        "minimum_age": 0,
+        "maximum_age": 12,
+        "adult_required": true,
+        "details": "Converts to MyLife Teen Checking or MyLife Savings at 13.",
+        "membership_required": true,
+        "membership_details": "Credit union membership required."
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 2.0,
+        "floor_value_percent": null,
+        "max_value_percent": 2.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": 500.0,
+        "tiers": [
+          {
+            "min_balance_usd": 0.0,
+            "max_balance_usd": 500.0,
+            "apy_percent": 2.0
+          }
+        ],
+        "conditions": [
+          {
+            "type": "balance_cap",
+            "description": "2.00% on first $500"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-09-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No minimum balance. $10 birthday deposit per year (reported)."
+      },
+      "access": [
+        "branch",
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "balance_cap",
+        "parental_controls"
+      ],
+      "promotions": [],
+      "official_url": "https://www.usalliance.org/",
+      "sources": {
+        "product_page_url": "https://www.usalliance.org/",
+        "rate_page_url": "https://www.usalliance.org/about-us/rates/savings-rates",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Eneba hub - Best Savings Accounts for Kids",
+          "url": "https://www.eneba.com/hub/?p=108412",
+          "as_of": "2026-09-01"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Exact product name not confirmed.",
+      "unconfirmed_fields": [
+        "product_name"
+      ],
+      "missing_fields": [
+        "apy.tiers_after_500"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "chase-savings",
+      "institution": "Chase",
+      "product_name": "Chase Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank"
+      ],
+      "bank_type": "national_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "ME",
+          "MA",
+          "NH",
+          "RI",
+          "VT",
+          "NJ",
+          "NY",
+          "PA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Largest branch network in NY/NJ."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "JPMorgan Chase Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Minors served by Chase First Banking.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-08-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 5.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": 300.0,
+        "fee_notes": "$5 monthly fee; waiver threshold from secondary source."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.chase.com/personal/savings/chase-savings",
+      "sources": {
+        "product_page_url": "https://www.chase.com/personal/savings/chase-savings",
+        "rate_page_url": "https://www.chase.com/personal/savings/chase-savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Gerald Wallet - bank savings guides",
+          "url": "https://joingerald.com/learn/saving--investing/td-bank-savings-account-interest-rates-guide",
+          "as_of": "2026-08-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.minimum_balance_to_avoid_fee_usd",
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "bank-of-america-advantage-savings",
+      "institution": "Bank of America",
+      "product_name": "Advantage Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank"
+      ],
+      "bank_type": "national_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "ME",
+          "MA",
+          "NH",
+          "RI",
+          "VT",
+          "NJ",
+          "NY",
+          "PA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Branches across the Northeast."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Bank of America, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Minors via Minor Savings/UTMA; adult product here.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-08-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": 100.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Monthly fee and waiver rules not captured."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.bankofamerica.com/deposits/savings/",
+      "sources": {
+        "product_page_url": "https://www.bankofamerica.com/deposits/savings/",
+        "rate_page_url": "https://www.bankofamerica.com/deposits/savings/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Gerald Wallet - bank savings guides",
+          "url": "https://joingerald.com/learn/saving--investing/td-bank-savings-account-interest-rates-guide",
+          "as_of": "2026-08-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "td-bank-simple-savings",
+      "institution": "TD Bank",
+      "product_name": "TD Simple Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "ME",
+          "MA",
+          "NH",
+          "RI",
+          "VT",
+          "NJ",
+          "NY",
+          "PA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Branches from Maine to Pennsylvania and south."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "TD Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Minors via TD Youth account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.02,
+        "floor_value_percent": 0.02,
+        "max_value_percent": 0.02,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-08-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+      "sources": {
+        "product_page_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+        "rate_page_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Gerald Wallet - bank savings guides",
+          "url": "https://joingerald.com/learn/saving--investing/td-bank-savings-account-interest-rates-guide",
+          "as_of": "2026-08-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "td-bank-signature-savings",
+      "institution": "TD Bank",
+      "product_name": "TD Signature Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank",
+        "northeast_regional",
+        "tiered_rate",
+        "rate_conditions_apply"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "ME",
+          "MA",
+          "NH",
+          "RI",
+          "VT",
+          "NJ",
+          "NY",
+          "PA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": ""
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "TD Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "tiered",
+        "value_percent": 0.1,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 3.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [
+          {
+            "type": "linked_checking",
+            "description": "Higher 'bump' rate reported when linked to qualifying TD checking; sources disagree (about 3.00% at $100,000+ vs up to 4.00% at $10,000+)"
+          }
+        ],
+        "promo": null,
+        "rate_as_of": "2026-08-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "tiered_rates",
+        "requires_linked_checking",
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+      "sources": {
+        "product_page_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+        "rate_page_url": "https://www.td.com/us/en/personal-banking/savings-accounts",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Gerald Wallet - bank savings guides",
+          "url": "https://joingerald.com/learn/saving--investing/td-bank-savings-account-interest-rates-guide",
+          "as_of": "2026-08-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "Max rate conflicts by source; Finder says up to 3% at $100k+ (varies by ZIP).",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "apy.tiers",
+        "fees"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "santander-bank-savings",
+      "institution": "Santander Bank",
+      "product_name": "Santander Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "MA",
+          "NH",
+          "NJ",
+          "NY",
+          "PA",
+          "RI"
+        ],
+        "northeast_residents_can_open": true,
+        "note": ""
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Santander Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": null
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": 25.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Fee waived with checking, $100 balance, or under age 26 (Motley Fool)."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.santanderbank.com/personal/savings",
+      "sources": {
+        "product_page_url": "https://www.santanderbank.com/personal/savings",
+        "rate_page_url": "https://www.santanderbank.com/personal/savings",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Banksparency - Santander Bank",
+          "url": "https://banksparency.com/banks/santander-bank",
+          "as_of": null
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees.monthly_fee_usd",
+        "apy.rate_as_of"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "citizens-bank-quest-savings",
+      "institution": "Citizens Bank",
+      "product_name": "Quest Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "big_bank",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "MA",
+          "NH",
+          "NJ",
+          "NY",
+          "PA",
+          "RI",
+          "VT"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "HQ Providence, RI."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Citizens Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Requires Citizens Quest Checking (per older review).",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.02,
+        "floor_value_percent": 0.02,
+        "max_value_percent": 0.02,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": null
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 0.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "No monthly fee reported."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "requires_linked_checking",
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.citizensbank.com/",
+      "sources": {
+        "product_page_url": "https://www.citizensbank.com/",
+        "rate_page_url": "https://www.citizensbank.com/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Bankrate - bank review/rates page",
+          "url": "https://www.bankrate.com/banking/savings/citizens-bank-savings-rates/",
+          "as_of": null
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [
+        "apy.rate_as_of"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "webster-bank-personal-savings",
+      "institution": "Webster Bank",
+      "product_name": "Personal Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "CT",
+          "MA",
+          "NY",
+          "RI"
+        ],
+        "northeast_residents_can_open": true,
+        "note": ""
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Webster Bank, N.A."
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2025-04-01"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": null,
+        "minimum_opening_deposit_usd": 25.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": ""
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://websterbank.com/",
+      "sources": {
+        "product_page_url": "https://websterbank.com/",
+        "rate_page_url": "https://websterbank.com/wp-content/uploads/2025/04/personal-product-deposit-rates.pdf",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Webster Bank - personal deposit rates PDF",
+          "url": "https://websterbank.com/wp-content/uploads/2025/04/personal-product-deposit-rates.pdf",
+          "as_of": "2025-04-01"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "rockland-trust-free-savings",
+      "institution": "Rockland Trust (MA)",
+      "product_name": "Free Savings",
+      "account_type": "savings",
+      "categories": [
+        "traditional_savings",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "northeast_branches",
+        "states": [
+          "MA",
+          "RI",
+          "NH"
+        ],
+        "northeast_residents_can_open": true,
+        "note": "Massachusetts-headquartered."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Rockland Trust Company"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "variable",
+        "structure": "single",
+        "value_percent": 0.01,
+        "floor_value_percent": 0.01,
+        "max_value_percent": 0.01,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-07-03"
+      },
+      "term_months": null,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 10.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Free Savings is entry-level; no monthly fee reported."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch",
+        "atm"
+      ],
+      "features": [
+        "no_monthly_fee",
+        "branch_network_northeast"
+      ],
+      "promotions": [],
+      "official_url": "https://www.rocklandtrust.com/",
+      "sources": {
+        "product_page_url": "https://www.rocklandtrust.com/",
+        "rate_page_url": "https://www.rocklandtrust.com/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Firstcard - Rockland Trust Savings Account",
+          "url": "https://www.firstcard.app/learn/rockland-trust-savings-account",
+          "as_of": "2026-07-03"
+        },
+        "official_urls_seen_in_research": false
+      },
+      "notes": "",
+      "unconfirmed_fields": [
+        "fees.monthly_fee_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    },
+    {
+      "id": "salem-five-direct-18-month-cd",
+      "institution": "Salem Five Direct (MA)",
+      "product_name": "18-Month Special CD",
+      "account_type": "cd",
+      "categories": [
+        "cd",
+        "northeast_regional"
+      ],
+      "bank_type": "regional_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": [
+          "MA"
+        ],
+        "northeast_residents_can_open": true,
+        "note": ""
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Salem Five Cents Savings Bank (also MA DIF)"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "fixed",
+        "structure": "single",
+        "value_percent": 4.3,
+        "floor_value_percent": 4.3,
+        "max_value_percent": 4.3,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": 18,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Early-withdrawal penalty applies (terms not captured)."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "early_withdrawal_penalty",
+        "rate_guarantee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.salemfivedirect.com/special-cd-promotion/",
+      "sources": {
+        "product_page_url": "https://www.salemfivedirect.com/special-cd-promotion/",
+        "rate_page_url": "https://www.salemfivedirect.com/special-cd-promotion/",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "marcus-high-yield-cd-18-24-month",
+      "institution": "Marcus by Goldman Sachs",
+      "product_name": "High-Yield CD (18 or 24 month)",
+      "account_type": "cd",
+      "categories": [
+        "cd"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Online account; open to Northeast residents."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Goldman Sachs Bank USA"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "fixed",
+        "structure": "single",
+        "value_percent": 4.3,
+        "floor_value_percent": 4.3,
+        "max_value_percent": 4.3,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": 18,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 500.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Early-withdrawal penalty applies."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "early_withdrawal_penalty",
+        "rate_guarantee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.marcus.com/us/en/savings/high-yield-cds",
+      "sources": {
+        "product_page_url": "https://www.marcus.com/us/en/savings/high-yield-cds",
+        "rate_page_url": "https://www.marcus.com/us/en/savings/high-yield-cds",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Both 18- and 24-month terms listed at 4.30%; term_months holds the shorter term.",
+      "unconfirmed_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "popular-direct-12-month-cd",
+      "institution": "Popular Direct (Popular Bank, NY)",
+      "product_name": "12-Month CD",
+      "account_type": "cd",
+      "categories": [
+        "cd",
+        "northeast_regional"
+      ],
+      "bank_type": "online_bank",
+      "availability": {
+        "scope": "nationwide_online",
+        "states": null,
+        "northeast_residents_can_open": true,
+        "note": "Parent bank is NY-based."
+      },
+      "insurance": {
+        "type": "FDIC",
+        "insured_entity": "Popular Bank"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Standard adult account.",
+        "membership_required": false,
+        "membership_details": null
+      },
+      "apy": {
+        "rate_type": "fixed",
+        "structure": "single",
+        "value_percent": 4.0,
+        "floor_value_percent": 4.0,
+        "max_value_percent": 4.0,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": 12,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": 10000.0,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Early-withdrawal penalty applies."
+      },
+      "access": [
+        "online",
+        "mobile_app"
+      ],
+      "features": [
+        "early_withdrawal_penalty",
+        "rate_guarantee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.populardirect.com/products/cds",
+      "sources": {
+        "product_page_url": "https://www.populardirect.com/products/cds",
+        "rate_page_url": "https://www.populardirect.com/products/cds",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "",
+      "unconfirmed_fields": [],
+      "missing_fields": [],
+      "last_verified": "2026-10-15",
+      "verification_status": "verified_third_party"
+    },
+    {
+      "id": "usalliance-12-month-share-certificate",
+      "institution": "USALLIANCE Financial (NY/CT)",
+      "product_name": "12-Month Certificate",
+      "account_type": "cd",
+      "categories": [
+        "cd",
+        "credit_union",
+        "northeast_regional"
+      ],
+      "bank_type": "credit_union",
+      "availability": {
+        "scope": "regional_limited",
+        "states": [
+          "NY",
+          "CT",
+          "NJ"
+        ],
+        "northeast_residents_can_open": true,
+        "note": ""
+      },
+      "insurance": {
+        "type": "NCUA",
+        "insured_entity": "USALLIANCE Financial"
+      },
+      "eligibility": {
+        "under_18_eligible": false,
+        "minimum_age": 18,
+        "maximum_age": null,
+        "adult_required": false,
+        "details": "Membership required.",
+        "membership_required": true,
+        "membership_details": "Credit union membership required."
+      },
+      "apy": {
+        "rate_type": "fixed",
+        "structure": "single",
+        "value_percent": 4.05,
+        "floor_value_percent": 4.05,
+        "max_value_percent": 4.05,
+        "min_balance_for_apy_usd": null,
+        "max_balance_for_apy_usd": null,
+        "tiers": [],
+        "conditions": [],
+        "promo": null,
+        "rate_as_of": "2026-09-24"
+      },
+      "term_months": 12,
+      "fees": {
+        "monthly_fee_usd": 0.0,
+        "minimum_opening_deposit_usd": null,
+        "minimum_balance_to_avoid_fee_usd": null,
+        "fee_notes": "Early-withdrawal penalty applies."
+      },
+      "access": [
+        "online",
+        "mobile_app",
+        "branch"
+      ],
+      "features": [
+        "early_withdrawal_penalty",
+        "rate_guarantee"
+      ],
+      "promotions": [],
+      "official_url": "https://www.usalliance.org/",
+      "sources": {
+        "product_page_url": "https://www.usalliance.org/",
+        "rate_page_url": "https://www.usalliance.org/about-us/rates/savings-rates",
+        "eligibility_page_url": null,
+        "rate_source": {
+          "name": "Doctor of Credit - Best High Yield Savings Accounts (tracker)",
+          "url": "https://www.doctorofcredit.com/high-interest-savings-to-get/",
+          "as_of": "2026-09-24"
+        },
+        "official_urls_seen_in_research": true
+      },
+      "notes": "Tracker lists 4.05%/4.10% for 12/18 months.",
+      "unconfirmed_fields": [],
+      "missing_fields": [
+        "fees.minimum_opening_deposit_usd"
+      ],
+      "last_verified": "2026-10-15",
+      "verification_status": "needs_review"
+    }
+  ]
+}
