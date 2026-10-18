@@ -6,9 +6,6 @@ import json
 import os
 from datetime import date, datetime, time
 
-# TO DO:
-# Add bank sorting
-
 if "shifts" not in st.session_state:
     st.session_state.shifts = []
 
@@ -142,6 +139,7 @@ def pageSetUp():
 
     st.title(":material/verified_user: EarnVest for Teens")
     st.text("Understand and Maximize Your Paycheck")
+    st.logo("images/logo-bg.png", size="large")
     st.divider()
 
     dashboardPage = st.Page("dashboard.py", title="Dashboard", icon=":material/dashboard:")
