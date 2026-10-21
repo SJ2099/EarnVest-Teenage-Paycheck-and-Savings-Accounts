@@ -1,6 +1,5 @@
 # Setup
 import streamlit as st
-import sqlite3 as sql
 import pandas as pd
 import json
 import os
@@ -130,7 +129,7 @@ def logInUserData(username):
         }
     )
 
-def pageSetUp():
+def pageSetUp(allowLogins=False):
     st.set_page_config(
         page_title="EarnVest - Understand and Maximize Your Paycheck",
         page_icon=":material/verified_user:",
@@ -151,10 +150,11 @@ def pageSetUp():
     pg = st.navigation([dashboardPage, hourlogPage, calculatorPage, comparisonPage, savingsPage])
     pg.run()
 
-    with st.sidebar:
-        username = st.text_input("Username: ")
-        st.button("Import Data", on_click=logInUserData, args=[str(username)])
-        st.button("Export Data", on_click=addDataToUser, args=[str(username)])
+    if allowLogins:
+        with st.sidebar:
+            username = st.text_input("Username: ")
+            st.button("Import Data", on_click=logInUserData, args=[str(username)])
+            st.button("Export Data", on_click=addDataToUser, args=[str(username)])
 
 # On start
 pageSetUp()
