@@ -132,7 +132,7 @@ def logInUserData(username):
 def pageSetUp(allowLogins=False):
     st.set_page_config(
         page_title="EarnVest - Understand and Maximize Your Paycheck",
-        page_icon=":material/verified_user:",
+        page_icon="📈",
         layout="wide"
     )
 
