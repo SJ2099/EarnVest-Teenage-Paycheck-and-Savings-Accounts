@@ -48,8 +48,23 @@ if "formSubmitted" not in st.session_state:
 if "questionnaire" not in st.session_state:
     st.session_state.questionnaire = {}
 
+if "calcsubmitted" not in st.session_state:
+    st.session_state.calcsubmitted = False
+
+if "CS" not in st.session_state:
+    st.session_state.CS = False
+
 if "allTaxes" not in st.session_state:
     st.session_state.allTaxes = {}
+
+if "bank_find_submitted" not in st.session_state:
+    st.session_state.bank_find_submitted = False
+
+if "bankFindSub" not in st.session_state:
+    st.session_state.bankFindSub = False
+
+if "progress" not in st.session_state:
+    st.session_state.progress = 0
 
 # Classes
 
@@ -136,8 +151,8 @@ def pageSetUp(allowLogins=False):
         layout="wide"
     )
 
-    st.title(":material/verified_user: EarnVest for Teens")
-    st.text("Understand and Maximize Your Paycheck")
+    st.title(":material/verified_user: :violet[Earn]:green[Vest] for Teens")
+    st.markdown("**Understand** and **Maximize** Your Paycheck")
     st.logo("images/logo-bg.png", size="large")
     st.divider()
 
