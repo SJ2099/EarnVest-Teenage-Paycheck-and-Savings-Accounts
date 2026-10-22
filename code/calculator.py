@@ -38,7 +38,7 @@ def pageSetUp():
 
     preSubmitQ["ExemptFederal"] = st.radio("3. What information appears on your federal Form W-4? Are you exempt from federal income-tax withholding?", ["'Exempt from withholding' is checked", "I am not exempt from a withholding", "I'm not sure"], on_change=onChange)
 
-    preSubmitQ["W4Step3"] = st.number_input("4. What amount did you enter in Step 3 of your W-4? If you don't know, enter 0.", min_value=0.0, step=0.01, on_change=onChange)
+    preSubmitQ["W4Step3"] = st.number_input("4. What amount did you enter in Step 3 of your W-4? In other words, calculate the amount of money per dependent. If you don't know, enter 0. ", min_value=0.0, step=0.01, on_change=onChange)
 
     preSubmitQ["ExtraWithholding"] = st.radio("5. Do you request extra federal withholding?", ["Yes", "No", "Not sure"], on_change=onChange)
 
