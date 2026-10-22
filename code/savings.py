@@ -151,11 +151,12 @@ def pageSetUp():
                     apy = st.slider("What is the annual percentage yield (APY) of your account?", min_value=0.0, max_value=10.0, step=0.001, format="%.3f") / 100
 
                 duration = st.number_input("How many months will you save for?", min_value=1, step=1, help="Enter the number of months")
-                submitted = st.form_submit_button("Calculate savings growth")
+                st.session_state.calcsubmitted = st.form_submit_button("Calculate savings growth")
 
         with col2:
             with st.container(border=True):    
-                if submitted:
+                if st.session_state.calcsubmitted:
+                    st.session_state.CS = True
                     payments_per_year = {
                         "Weekly": 52,
                         "Biweekly": 26,
@@ -204,10 +205,11 @@ def pageSetUp():
                 preferred_access = st.radio("Preferred access", ["Online banking preferred", "In-person branches preferred", "No preference"], help="Do you prefer to have an in-person or online bank?")
                 sort_results = st.radio("Sorts results by:", ["Highest APY", "Lowest fees", "Alphabetical"])
 
-                bank_find_submitted = st.form_submit_button("Find the right bank")
+                st.session_state.bank_find_submitted = st.form_submit_button("Find the right bank")
 
         with col2:
-            if bank_find_submitted:
+            if st.session_state.bank_find_submitted:
+                st.session_state.bankFindSub = True
                 with open("info/bank_data.json", "r", encoding="utf-8") as file:
                     banks = json.load(file)
 
