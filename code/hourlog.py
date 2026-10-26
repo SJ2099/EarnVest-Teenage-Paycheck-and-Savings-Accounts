@@ -11,7 +11,7 @@ def onChange():
 
 def pageSetUp():
     st.header("Hour Log")
-    st.text("For each row in the table below, fill in the required information regarding your most recent pay period for each shift. If you have the same information for multiple days, set the Days Repeated column, extra rows are only necessary for different shifts or different jobs. Once you have filled in the information, go the the tax calculation page.")
+    st.text("For each row in the table below, fill in the required information regarding your most recent pay period for each shift. If you have the same information for multiple days, set the Days Repeated column, extra rows are only necessary for different shifts or different jobs. Enter times in 24-hour format, with a colon (:) between hours and minutes. Once you have filled in the information, go the the tax calculation page.")
     st.divider()
 
     st.session_state.shiftsData["Date"] = pd.to_datetime(
