@@ -18,6 +18,7 @@ def pageSetUp():
         d = {"Tax": list(st.session_state.allTaxes.keys()), "Estimated Value ($)": list(st.session_state.allTaxes.values()), "Actual Value ($)": [0] * len(st.session_state.allTaxes), "Difference ($)": [0] * len(st.session_state.allTaxes)}
         st.session_state.userSystemTaxData = pd.DataFrame(d)
     elif "userSystemTaxData" not in st.session_state:
+        st.markdown(":red[Please fill out hourlog and then calculate your estimated withholdings to use the table.]")
         return
     
     st.data_editor(st.session_state.userSystemTaxData, width="stretch", height="stretch", hide_index=True, disabled=["Tax", "Estimated Value ($)", "Difference ($)"], key="tax_comparison_editor", on_change=updateDifferences)
