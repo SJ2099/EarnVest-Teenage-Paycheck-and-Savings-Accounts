@@ -27,8 +27,8 @@ def pageSetUp():
         column_config={
             "Job Name": st.column_config.TextColumn("Job Name"),
             "Date": st.column_config.DateColumn("Date", help="Submit amount in YYYY-MM-DD format."),
-            "Start Time": st.column_config.TextColumn("Start Time", help="Submit amount in HH:MM format."),
-            "End Time": st.column_config.TextColumn("End Time", help="Submit amount in HH:MM format."),
+            "Start Time": st.column_config.TextColumn("Start Time", help="Submit amount in 24-hour HH:MM format."),
+            "End Time": st.column_config.TextColumn("End Time", help="Submit amount in 24-hour HH:MM format."),
             "Overtime Hours": st.column_config.NumberColumn("Overtime Hours", help="Enter the number of overtime hours worked."),
             "Unpaid Break Length (mins)": st.column_config.NumberColumn("Unpaid Break Length (mins)", help="Enter the length of any unpaid breaks in minutes."),
             "Hourly Wage": st.column_config.NumberColumn("Hourly Wage", help="Submit amount in XX.XX format."),
@@ -53,6 +53,9 @@ def updateInfo(shifts):
             end = datetime.strptime(row["End Time"], "%H:%M")
 
             hours = ((end - start).total_seconds() - (float(row["Unpaid Break Length (mins)"]) * 60)) / 3600
+            if hours < 0:
+                hours = 24 + hours
+
             overtimeHours = float(row["Overtime Hours"])
             st.session_state.totalHours += (hours + overtimeHours) * float(row["Days Repeated"])
             listOfGrosses.append((st.session_state.totalHours * float(row["Hourly Wage"])) + (overtimeHours * float(row["Overtime Wage"])))
