@@ -210,13 +210,13 @@ def pageSetUp():
         with col2:
             if st.session_state.bank_find_submitted:
                 st.session_state.bankFindSub = True
-                with open("info/bank_data.json", "r", encoding="utf-8") as file:
-                    banks = json.load(file)
+                with open("info/bank_data.json", "r", encoding="utf-8") as file: # Gets the JSON file of banks database
+                    banks = json.load(file) 
 
                 allAccounts = banks["accounts"]
                 validOptions = []
 
-                for account in allAccounts:
+                for account in allAccounts: # Filters accounts based on user preferences
                     points = 0
                     if preferred_account == "Checking Account" and account["account_type"] == "checking":
                         account["typeEasy"] = "Checking Account"
@@ -275,7 +275,7 @@ def pageSetUp():
                 with st.container(height=540, border=True):
                     st.text("Please submit the form to the left to find bank accounts that work for you.")
 
-def giveContainerFromDict(account):
+def giveContainerFromDict(account): # Presents each bank using Streamlit's UI
     with st.expander(f":material/account_balance: {account["institution"]}"):
         st.subheader(f"**{account["institution"]}**")
         st.markdown(f"**{account["typeEasy"]}**")
