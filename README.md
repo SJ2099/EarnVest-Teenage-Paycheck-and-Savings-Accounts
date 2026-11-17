@@ -1,5 +1,5 @@
 # EarnVest-Teenage-Paycheck-and-Savings-Accounts
-This Streamlit website allows teenage users to get a better understanding of their paycheck by inputing their hourly wage, working hours, and some more information to receive a estimate of the amount of money that will be withheld on their paycheck. Additionally, the website also teaches teens about different types of savings accounts.
+This [Streamlit website]([url](https://earnvest-teen-savings.streamlit.app)) allows teenage users to get a better understanding of their paycheck by inputing their hourly wage, working hours, and some more information to receive a estimate of the amount of money that will be withheld on their paycheck. Additionally, the website also teaches teens about different types of savings accounts.
 
 ## Hour Log
 The Hour Log page allows for the user to enter their hourly wage and the amount of hours they work for, as well as some other info, for the length of one of their pay periods. The user is able to enter multiple jobs.
